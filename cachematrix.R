@@ -45,8 +45,7 @@ cacheSolve <- function(x, ...) {
 	m <- x$getreverse()
 	##Check if the inverse (cached data) has been already calculated
 	if(!is.null(m)) {
-	##already calculated return it
-			message("getting cached data")
+	##already calculated: return it
 			return(m)
 	}
 	##retrieve the initial matrix
